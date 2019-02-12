@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<root>
+    <item>
+        <name>My Hotkeys</name>
+        <item>
+            <name>Press FN + X to LMB</name>
+            <identifier>private.fn_x_to_lmb</identifier>
+            <autogen>__KeyToKey__ KeyCode::X, ModifierFlag::FN, KeyCode::VK_MOUSEKEY_BUTTON_LEFT</autogen>
+        </item>
+        <item>
+            <name>Press SHIFT_L + SPACE to LMB</name>
+            <identifier>private.shift_space_to_lmb</identifier>
+            <autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::SHIFT_L, KeyCode::VK_MOUSEKEY_BUTTON_LEFT</autogen>
+        </item>
+        <item>
+            <name>Fn + j to Page Down</name>
+            <identifier>private.fn_j_to_page_down</identifier>
+            <autogen>__KeyToKey__ KeyCode::J, ModifierFlag::FN, KeyCode::PAGEDOWN</autogen>
+        </item>
+        <item>
+            <name>Fn + k to Page UP</name>
+            <identifier>private.fn_k_to_page_up</identifier>
+            <autogen>__KeyToKey__ KeyCode::K, ModifierFlag::FN, KeyCode::PAGEUP</autogen>
+        </item>
+        <item>
+            <name>Ctrl_Lx2 to Left_click x2</name>
+            <identifier>private.ctrl_l_2_to_left_click_2</identifier>
+            <autogen>__DoublePressModifier__ KeyCode::CONTROL_L, KeyCode::CONTROL_L, @begin KeyCode::VK_MOUSEKEY_BUTTON_LEFT, KeyCode::VK_MOUSEKEY_BUTTON_LEFT, @end</autogen>
+        </item>
+    </item>
+</root>

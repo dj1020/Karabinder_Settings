@@ -1,0 +1,29 @@
+{
+  "title": "Shift spacebar to Mouse left click",
+  "rules": [
+    {
+      "description": "Mouse keys (simple) (rev 1)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": [
+                "left_shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "pointing_button": "button1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
